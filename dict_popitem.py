@@ -8,4 +8,4 @@ d = {'matthew': 'blue', 'rachel': 'green', 'raymond': 'red'}
 
 while d:
 	key, value = d.popitem()
-	print key, '-->', value
+	print (key, '-->', value)

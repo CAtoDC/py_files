@@ -1,3 +1,5 @@
+'''Sample Class creation'''
+
 class Pet(object):
 	'Common base class for all pets'
 	petCount = 0
@@ -19,5 +21,5 @@ class Pet(object):
 pet01 = Pet("Polly", "Parrot")
 pet02 = Pet("Noah", "Dog")
 
-print pet01
-print "I have %d pets." % Pet.petCount
+print(pet01)
+print("I have %d pets." % Pet.petCount)

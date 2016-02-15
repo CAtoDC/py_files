@@ -1,3 +1,10 @@
+''' Convert Temperature from Fahrenheit to Celsius
+and Celsius to Fahrenheit
+
+
+Works in python 2x
+'''
+
 # temp conversion
 
 def menu():
@@ -24,15 +31,15 @@ def main():
 		if choice == 1:
 			# convert C to F
 			c = input("Enter degrees Celsius: ")
-			print(str(c) + "C = " + str(toFahrenheit(c)) + "F")
+			print (str(c) + "C = " + str(toFahrenheit(c)) + "F")
 
 		elif choice == 2:
 			# convert F to C
 			f = input("Enter degrees Fahrenheit: ")
-			print(str(f) + "F = " + str(toCelsius(f)) + "C")
+			print (str(f) + "F = " + str(toCelsius(f)) + "C")
 
 		else:
-			print("Invalid entry")
+			print ("Invalid entry")
 		choice = menu()
 
 
