@@ -8,7 +8,7 @@ import re
 # Simple matching: \d+ means match one or more digits
 datepat = re.compile(r'\d+/\d+/\d+')
 
-text1 = 'Today is 11/27/2012. Pycon starts 3/13/2013.'
+text1 = 'This file was created on 11/27/2012. Pycon starts 3/13/2013.'
 text2 = 'Today is August first.'
 
 # findall finds all occurrences of a pattern
