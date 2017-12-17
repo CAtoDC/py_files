@@ -8,7 +8,7 @@ The enumerate function takes a list and returns (index, item) pairs
 # A 'for' loop takes one result at a time, but the print function does not
 # so we need to explicitly convert the generator function when we print
 
-items = 'zero one two three'.split()
+items = 'zero one two three four'.split()
 print("Print items using split: ", list(enumerate(items)),'\n')
 
 # using a for loop
