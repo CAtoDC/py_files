@@ -1,0 +1,4 @@
+"BEGID";"ENDID";"Name";"To";"From";"CC";"BCC"
+"ABC_001";"ABC_004";"Smith, John";"Doe, John";"Roe, Jane";"";""
+"ABC_005";"ABC_007";"Smith, John";"Doe, John";"";"";""
+"ABC_008";"ABC_012";"Doe, John";"Doe, John";"Smith, John";"";""
