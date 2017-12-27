@@ -1,5 +1,6 @@
 import sqlite3
 
+# creates db in memory only
 createDb = sqlite3.connect(':memory:')
 
 queryCurs = createDb.cursor()
@@ -22,6 +23,7 @@ def main():
 
 	createDb.commit()
 
+	# now that we have a db a table and data, query it
 	queryCurs.execute('SELECT * FROM customers ORDER BY city')
 
 	for i in queryCurs:

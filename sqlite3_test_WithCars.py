@@ -4,14 +4,18 @@ import sqlite3 as lite
 import sys
 
 
-con = lite.connect('my_cars.db')
+# connect to db
+con = lite.connect('c:/py/my_cars.db')
 
-# The 'with' keyword automatically releases the resources
-# and provides error handling
+# The 'with' keyword automatically releases 
+# the resources and provides error handling
 with con:
 	cur = con.cursor()
 
-	#cur.execute("CREATE TABLE Car(Id INT, Name TEXT, Price INT)")
+	# create table
+	cur.execute("CREATE TABLE Cars(Id INT, Name TEXT, Price INT)")
+
+	# insert data into table
 	cur.execute("INSERT INTO Cars VALUES(1, 'Audi', 52642)")
 	cur.execute("INSERT INTO Cars VALUES(2, 'Mercedes', 57127)")
 	cur.execute("INSERT INTO Cars VALUES(3, 'Skoda', 9000)")

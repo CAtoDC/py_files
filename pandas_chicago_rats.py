@@ -20,12 +20,14 @@ print (len(dates), 'incidents were completed. \n')
 
 # determine the counts on each day
 date_counts = dates.size()
-print (date_counts[0:10])
+print (date_counts[0:10], '\n')
+
 
 # sort the counts
 date_counts.sort_values(inplace=True)
-print ('\n', date_counts[-10:], '\n')
+print (date_counts[-10:], '\n')
 
 # find the 10 most rat-infested zip codes in chicago
 # This doesn't work. Not sure why.
+print('Zip Code', ' ', 'Incident Calls')
 print (crew_dispatched['ZIP Code'].value_counts())

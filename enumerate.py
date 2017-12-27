@@ -12,6 +12,6 @@ items = 'zero one two three'.split()
 print("Print items using split: ", list(enumerate(items)),'\n')
 
 # using a for loop
-print('Index and items using a for loop')
+print('Index and items using a for loop:')
 for (index, item) in enumerate(items):
 	print(index, '-->', item)
