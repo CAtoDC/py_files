@@ -1,7 +1,7 @@
 # for loop examples
 
 count = 0
-friends = ['Joseph', 'Glenn', 'Sally']
+friends = ['Joseph', 'Glenn', 'Sally', 'David']
 for friend in friends:
     count = count + 1
     print ('Happy New Year', friend,"!")
