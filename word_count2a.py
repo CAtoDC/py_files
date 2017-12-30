@@ -21,11 +21,11 @@ import string
 string.punctuation
 '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
 
-fname = raw_input('Enter the file name: ')
+fname = input('Enter the file name: ')
 try:
     my_text_file = open(fname)
 except:
-    print 'File cannot be opened:', fname
+    print('File cannot be opened:', fname)
     exit()
 
 counts = dict()
@@ -40,7 +40,7 @@ for line in my_text_file:
     # 256-character string giving the translation for each character
     # value, indexed by its ordinal. If table is None, then only the
     # character deletion step is performed.
-    line = line.translate(None, string.punctuation)
+    line = line.translate(string.punctuation)
     line = line.lower()
     words = line.split()
 
@@ -60,9 +60,9 @@ for line in my_text_file:
     
 # sort words
 for key in sorted(counts.iterkeys()):
-    print ("%s: %s" % (key, counts[key]))
+    print("%s: %s" % (key, counts[key]))
 
 # display unique words
 word_keys = word_occurrences.keys()
-print ("{} unique words found.".format(len(word_keys)))
+print("{} unique words found.".format(len(word_keys)))
 

@@ -1,5 +1,5 @@
 '''
-A python program to count each word in a text file.
+A python 2.7 program to count each word in a text file.
 
 It reads through the lines of a file, breaks each line into a list of
 words, loops through each of the words in the line, and counts each
