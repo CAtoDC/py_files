@@ -1,3 +1,7 @@
+'''Using a turtle shape, draws a spiral
+that gets larger over time.
+'''
+
 import turtle
 
 wn = turtle.Screen()

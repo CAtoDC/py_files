@@ -21,5 +21,7 @@ class Pet(object):
 pet01 = Pet("Polly", "Parrot")
 pet02 = Pet("Noah", "Dog")
 
-print(pet01)
+
 print("I have %d pets." % Pet.petCount)
+print(pet01)
+print(pet02)

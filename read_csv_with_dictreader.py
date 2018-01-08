@@ -1,7 +1,7 @@
 '''With dictreader, we access the elements of each row using the row headers. 
-For example, row['name'] or row['age'].  Very efficient
+For example, row['name'] or row['age'].  It's very efficient.
 
-This lists the name and age of each passenger on the Titanic.
+This example lists the name and age of each passenger on the Titanic.
 '''
 
 import csv

@@ -15,4 +15,4 @@ def computePay(hours, rate):
 	total_pay = pay + ot_pay
 	return total_pay
 
-print("Total pay is: ", "{:,.2f}".format(computePay(40, 75)))
+print("Total pay is: ", "{:,.2f}".format(computePay(40, 65)))

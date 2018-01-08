@@ -19,6 +19,6 @@ result = ', '.join(names)
 print('With commas and spaces between names: ', result, '\n')
 
 
-# To make a grammatically nice sentence ("or") we can use slice.
-# The "slice until -1" ([:-1]) gives all but the last value
+# To make a grammatically nice sentence (using "or" before the last word) we can use slice.
+# The ([:-1]) gives all but the last value.
 print('Grammtically correct - Choose:', ', '.join(names[:-1]), 'or', names[-1])
