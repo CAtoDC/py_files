@@ -30,4 +30,4 @@ print ('Least common items:', c.most_common()[:-2-1:-1], '\n')
 print('Unique list items:', sorted(list(c)), '\n')
 
 # total num of items in list
-print('Total number of items in list:', sum(c.values()))
+print('Total number of items in list:', sum(c.values()), '\n')

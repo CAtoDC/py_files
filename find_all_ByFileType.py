@@ -2,7 +2,7 @@
 
 import os, glob
 
-os.chdir("C:/Users/Mark/Pictures")
+os.chdir("/home/mark/Pictures/backgrounds")
 
 for file in glob.glob("*.jpg"):
     print(file)

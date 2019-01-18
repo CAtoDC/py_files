@@ -1,7 +1,4 @@
-'''Sample Class creation'''
-
 class Pet(object):
-	'Common base class for all pets'
 	petCount = 0
 
 	def __init__(self, name, species):
@@ -14,7 +11,7 @@ class Pet(object):
 
 	def getSpecies(self):
 		return self.species
-
+		
 	def __str__(self):
 		return "%s is a %s." % (self.name, self.species)
 
