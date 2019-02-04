@@ -3,8 +3,8 @@ def hours_mins(mins):
     if mins > 59:
         hrs = int(mins / 60)
         mins = int(mins % 60)
-        return("{} hours and {} mins".format(hrs, mins))
+        return f"{hrs} hours and {mins} mins"
     else:
-        return("{} mins".format(mins))
+        return f"{mins} mins"
 
-print(hours_mins(147))
+print(hours_mins(142))
