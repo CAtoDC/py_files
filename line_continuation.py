@@ -1,5 +1,6 @@
 """
-Parentheses allow implicit line continuation
+Parentheses allow implicit line continuation.
+Although the \ is allowed for line continuation, it's ugly.
 """
 
 text = ('Long strings can be made up '
@@ -8,5 +9,12 @@ text = ('Long strings can be made up '
         'written!')
 print (text)
 
-# Although the \ is allowed for line continuation
-# it's ugly.
+
+# An even better way
+text2 = '''
+This is free form text. I can break the lines
+where ever I like
+in code
+and they will print that way.
+'''
+print(text2)

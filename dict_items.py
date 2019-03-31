@@ -4,7 +4,7 @@ Iterating through dictionaries
 For python 2x, use iteritems()
 """
 
-# create key/value pairs
+# create dict (i.e., key/value pairs)
 my_dict = {'name': 'Wasabi', 'age': '4', 'occupation': "Mark's Dog"}
 
 # Loop over keys and values using items

@@ -1,5 +1,6 @@
 """
-Use this in the Python shell
+Isolate the domain by finding @ and a space (i.e. @gmail.com )
+in a line of text.
 """
 
 #Find domain in messy email text

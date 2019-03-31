@@ -4,6 +4,7 @@ Use a for Loop to cycle through a list of lists
 Each row is a list of values.
 Each value represents a cell.
 The reader object can be looped over only once.
+Not efficient for use with large files.
 
 For python 2x, use IOError
 '''

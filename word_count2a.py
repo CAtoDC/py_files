@@ -1,4 +1,6 @@
 '''
+Updated for python 3
+
 A python program to count each word in a text file.
 
 It reads through the lines of a file, breaks each line into a list of
@@ -34,12 +36,6 @@ line_num = 0
 page_num = 0
 
 for line in my_text_file:
-    # Syntax:  string.translate(s, table[, deletechars])
-    # Delete all characters from s that are in deletechars (if present),
-    # and then translate the characters using table, which must be a
-    # 256-character string giving the translation for each character
-    # value, indexed by its ordinal. If table is None, then only the
-    # character deletion step is performed.
     line = line.translate(string.punctuation)
     line = line.lower()
     words = line.split()
@@ -52,17 +48,17 @@ for line in my_text_file:
             counts[word] += 1
             
         # get word occurrences
-        if word_occurrences.has_key(word):
+        if word_occurrences in [word]:
             word_occurrences[word].append(line_num)
         else:
             word_occurrences[word] = [ line_num ]
     
     
 # sort words
-for key in sorted(counts.iterkeys()):
+for key in sorted(counts.keys()):
     print("%s: %s" % (key, counts[key]))
 
-# display unique words
+# show unique word count
 word_keys = word_occurrences.keys()
 print("{} unique words found.".format(len(word_keys)))
 

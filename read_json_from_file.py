@@ -1,6 +1,5 @@
 ''' Read json file 
 
-
 Pretty print keeps things aligned
 '''
 
@@ -11,5 +10,4 @@ from pprint import pprint
 with open('data/widgets.json', 'r') as f:
      data = json.load(f)
 
-# pretty print keeps things aligned
 pprint(data)

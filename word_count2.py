@@ -1,4 +1,11 @@
 '''
+Modified for python 3.6
+
+Use: 
+./sample_text/Test.txt
+./sample_text/AliceInWonderland.txt
+
+
 A Python program to count each word in a text file.
 It reads through the lines of a file, breaks each line into a list of
 words, loops through each of the words in the line, and counts each
@@ -27,7 +34,8 @@ import string
 string.punctuation
 '!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~'
 
-fname = input('Enter the file name: ')
+fname = input('Enter the file name: ')  # text file in same directory
+
 try:
     fhand = open(fname)
 except:
@@ -36,13 +44,7 @@ except:
 
 counts = dict()
 for line in fhand:
-    # Syntax:  string.translate(s, table[, deletechars])
-    # Delete all characters from s that are in deletechars (if present),
-    # and then translate the characters using table, which must be a
-    # 256-character string giving the translation for each character
-    # value, indexed by its ordinal. If table is None, then only the
-    # character deletion step is performed.
-    line = line.translate(None, string.punctuation)
+    line = line.translate(string.punctuation)
     line = line.lower()
     words = line.split()
     for word in words:
@@ -51,11 +53,11 @@ for line in fhand:
         else:
             counts[word] += 1
 
-# sort dict by keys
-# to sort keys in reverse, add reverse=True as second keyword argument
-# to sorted function
+#print (counts)
+
+# sort dict by keys (i.e. words)
+# to sort keys in reverse, add reverse=True 
 print ('\n')
-for key in sorted(counts.iterkeys()):
+for key in sorted(counts.keys()):
     print ("%s: %s" % (key, counts[key]))
 
-#print counts

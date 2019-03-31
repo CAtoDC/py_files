@@ -23,7 +23,7 @@ def main():
 
 		# result if true
 		if userGuess == str(randomNumber):
-			print ("Correct!", '\n')
+			print ("Correct!")
 			found = True
 
 		# result if false

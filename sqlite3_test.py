@@ -1,4 +1,5 @@
 import sqlite3
+'''This creates a sqlite3 db in memory only '''
 
 # creates db in memory only
 createDb = sqlite3.connect(':memory:')

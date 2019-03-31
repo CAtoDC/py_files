@@ -40,6 +40,7 @@ def get_biggest_number(self, *args):
 # Which dog is the oldest?
 print("The oldest dog is {} years old.".format(get_biggest_number(mephisto.age, harper.age)))
 
+
 # call our instance methods
 print(mephisto.description())
 print(mephisto.speak("woof"))

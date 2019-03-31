@@ -1,7 +1,7 @@
 '''Rename files programmatically'''
 import os
 
-os.chdir('/Users/Mark/Music/Shorty Rogers and His Giants')
+os.chdir('/home/mark/Music/psytrance')
 print (os.getcwd(), '\n')
 
 for f in os.listdir():

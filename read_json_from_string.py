@@ -1,6 +1,6 @@
 '''Read json from string
 
-pprint won't halp here
+pprint won't help here
 '''
 
 import json

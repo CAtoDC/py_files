@@ -5,7 +5,7 @@ import sys
 
 
 # connect to db
-con = lite.connect('c:/py/my_cars.db')
+con = lite.connect('~home/mark/projects/py_files/data/my_cars.db')
 
 # The 'with' keyword automatically releases 
 # the resources and provides error handling
