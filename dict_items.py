@@ -9,4 +9,5 @@ my_dict = {'name': 'Wasabi', 'age': '4', 'occupation': "Mark's Dog"}
 
 # Loop over keys and values using items
 for key, val in my_dict.items():	# items will return an iterator
-	print("My {} is {}.".format(key, val))
+	#print("My {} is {}.".format(key, val))
+	print(f"My {key} is {val}.")  # using f-string
