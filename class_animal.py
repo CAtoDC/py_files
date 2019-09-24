@@ -1,6 +1,6 @@
 class Dog(object): # object refers to parent class you are inheriting from
 
-    # Class Attribute (the same for all instances)
+    # class attribute (the same for all instances)
     species = 'mammal'
 
     # instance attributes
@@ -44,4 +44,4 @@ print("The oldest dog is {} years old.".format(get_biggest_number(mephisto.age, 
 # call our instance methods
 print(mephisto.description())
 print(mephisto.speak("woof"))
-print(mephisto.trick("chase a ball."))
+print(mephisto.trick("chase a ball, but he doesn't bring it back."))
