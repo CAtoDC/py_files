@@ -1,7 +1,7 @@
 '''Fibonacci sequence solved with a generator.
 Very efficient - yield processes one-at-a-time
 
-For python 2x, use xrange, othewise use range
+For python 2x, use xrange
 '''
 def fib(num):
     a, b = 0, 1

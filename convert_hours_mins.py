@@ -7,4 +7,4 @@ def hours_mins(mins):
     else:
         return f"{mins} mins"
 
-print(hours_mins(119))
+print(hours_mins(212))

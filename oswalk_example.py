@@ -14,6 +14,7 @@ The only one we are concerned with here is the first. The Python 3.x version pro
  
 # The top argument for walk
 topdir = '.'
+#topdir = '/home/mark/projects'
  
 # The extension to search for
 exten = '.txt'
