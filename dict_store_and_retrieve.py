@@ -15,4 +15,4 @@ print ("The value of 'a' is:", d['a'])
 print ("Another way to get the value of 'a':", d.get('a'))
 
 # determing whether value is IN dictionary
-print ("Assertion: 'a' in the dict:", 'a' in d)
+print ("Assertion: the key 'a' is in the dict:", 'a' in d)

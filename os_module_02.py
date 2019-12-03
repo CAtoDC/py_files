@@ -1,4 +1,4 @@
-'''Rename files programmatically'''
+'''List files programmatically'''
 import os
 
 os.chdir('/home/mark/Music/psytrance')
