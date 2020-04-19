@@ -1,6 +1,6 @@
-# example of continue and break
-# from Automate the Boring Stuff with Python
-# you can use continue and break statements only inside while and for loops. 
+# Example of continue and break
+# from Automate the Boring Stuff with Python.
+# You can use continue and break statements only inside while and for loops. 
 # If you try to use these statements elsewhere, Python will give you an error.
 
 
