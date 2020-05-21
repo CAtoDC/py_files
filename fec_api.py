@@ -1,8 +1,11 @@
 import os
+import requests
+import logging
+#import deepcopy
 
 BASE_URL = 'http://api.open.fec.gov/v1'
 
-API_KEY = open(os.path.expanduser('c:/py/data/api-keys/data_gov.txt'),'r').read().strip()
+API_KEY = open(os.path.expanduser('./data/api-keys/data_gov.txt'),'r').read().strip()
 
 
 def all_results(endpoint, params):

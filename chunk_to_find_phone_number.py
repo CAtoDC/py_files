@@ -24,6 +24,7 @@ def isPhoneNumber(text):
     return True
 
 message = 'Call me at 202-555-1011 tomorrow. 202-555-9999 is my office.'
+
 for i in range(len(message)):
     chunk = message[i:i+12]
     if isPhoneNumber(chunk):

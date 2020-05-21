@@ -1,5 +1,5 @@
 # Merge two dictionaries
-# If there are intersections, values from the second dictionary are used.
+# If there are intersections, values from the last dictionary are used.
 
 dict_1 = {'apple': 9, 'banana': 6}
 dict_2 = {'banana': 4, 'orange': 8}

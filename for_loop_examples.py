@@ -7,14 +7,16 @@ for friend in friends:
     print ('Happy New Year', friend,"!")
     print ("I have", count, "friend(s)")
 print ("\n")
-    
+
+
 count = 0
 for itervar in [3, 41, 12, 9, 74, 15]:
     # counts number of items in list
     count = count + 1
     print ('Count: ', count)
 print ("\n")
- 
+
+
 total = 0
 for i in [3, 41, 12, 9, 74, 15]:
     total = total + i

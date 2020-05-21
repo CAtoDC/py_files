@@ -2,7 +2,7 @@
 
 from collections import Counter
 
-str_1, str_2, str_3 = "acbde", "aadcb", "abcda"
+str_1, str_2, str_3 = "acbde", "listen", "silent"
 cnt_1, cnt_2, cnt_3  = Counter(str_1), Counter(str_2), Counter(str_3)
 
 if cnt_1 == cnt_2:

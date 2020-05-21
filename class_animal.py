@@ -21,27 +21,27 @@ class Dog(object): # object refers to parent class you are inheriting from
         return "{} is {} years old.".format(self.name, self.age)
 
 
-# Instantiate the Dog object
-mephisto = Dog('Mephisto', 2)
-harper = Dog('Harper Lee', 5)
+# Instantiate the Dog object (this calls the __init__ method)
+d1 = Dog('Mephisto', 2)
+d2 = Dog('Harper Lee', 5)
 
 # Access the instance attributes
-print("{} is {} and {} is {}.".format(
-    mephisto.name, mephisto.age, harper.name, harper.age))
+print(f"{d1.name} is {d1.age} and {d2.name} is {d2.age}.")
 
 # Is Mephisto a mammal?
-if mephisto.species == "mammal":
-    print("{0} is a (wild) {1}!".format(mephisto.name, mephisto.species))
+if d1.species == "mammal":
+    print(f"{d1.name} is a (wild) {d1.species}")
 
 # Find the oldest animal
 def get_biggest_number(self, *args):
     return max(args)
 
 # Which dog is the oldest?
-print("The oldest dog is {} years old.".format(get_biggest_number(mephisto.age, harper.age)))
+#print("The oldest dog is {} years old.".format(get_biggest_number(d1.age, d2.age)))
+print(f"The oldest dog is {get_biggest_number(d1.age, d2.age)} years old.")
 
 
 # call our instance methods
-print(mephisto.description())
-print(mephisto.speak("woof"))
-print(mephisto.trick("chase a ball, but he doesn't bring it back."))
+print(d1.description())
+print(d1.speak("woof"))
+print(d1.trick("chase a ball, but he doesn't bring it back."))
