@@ -16,5 +16,5 @@ for i in my_set:
     print (i)
 
 with open('tags.txt', 'w') as filehandle:
-    for listitem in my_set:
-        filehandle.write('%s\n' % listitem)
+    for item in my_set:
+        filehandle.write('%s\n' % item)
