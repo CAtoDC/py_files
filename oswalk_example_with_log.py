@@ -9,11 +9,12 @@ https://www.pythoncentral.io/recursive-file-and-directory-manipulation-in-python
 '''
 
 # The top argument for walk
-topdir = '.'
+#topdir = '.'
+topdir = 'E:\Music'
 
 # The extension to search for
-exten = '.txt'
-logname = 'findfiletype.log'
+exten = '.wma'
+logname = 'findfiletype_WMA.log'
 
 # What will be logged
 results = str()
