@@ -27,3 +27,5 @@ my_list = []
 my_list = nums  # range of nums is now a list
 squares = [num*num for num in my_list]
 print (type(squares), "-->", squares)
+
+
