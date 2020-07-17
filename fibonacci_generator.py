@@ -1,5 +1,5 @@
 '''Fibonacci sequence solved with a generator.
-Very efficient - yield processes one-at-a-time
+Very efficient - "yield" processes each line, one-at-a-time
 
 For python 2x, use xrange
 '''

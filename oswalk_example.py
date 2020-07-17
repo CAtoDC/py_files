@@ -9,7 +9,10 @@ topdown(=True) - boolean designating top-down or bottom-up walking.
 onerror(=None) - name of a function to call if an error occurs.
 followlinks(=False) - boolean designating whether or not to follow symbolic links.  
 
-The only one we are concerned with here is the first. The Python 3.x version produces a generator function. This means that the Python 3.x version will only go to the next iteration when we tell it to, and the way we will do that is with a loop.
+The only one we are concerned with here is the first. 
+The Python 3.x version produces a generator function. This means that the Python 3.x 
+version will only go to the next iteration when we tell it to. The way we will 
+do that is with a loop.
 '''
  
 # The top argument for walk

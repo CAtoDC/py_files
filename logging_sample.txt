@@ -1,2 +1,4 @@
 DEBUG:root:<class 'str'>
 DEBUG:root:<class 'str'>
+DEBUG:root:<class 'str'>
+DEBUG:root:<class 'str'>

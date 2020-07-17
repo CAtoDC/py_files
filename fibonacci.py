@@ -1,4 +1,5 @@
-'''One solution to the fibonacci sequence
+'''
+One solution to the fibonacci sequence
 Print out a number.
 The next number is a result of the previous two added together.
 

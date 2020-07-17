@@ -16,7 +16,7 @@ print("Values: ", d.values())
 
 # Loop over keys, values
 print("\nLoop over key/value pairs: ")
-for k in sorted(d.keys()):	# sorted is necessry to get alpha order; otherwise random, as hashed
+for k in sorted(d.keys()):	# sorted is necessary to get alpha order; otherwise random, as hashed
 	print(k, '-->', d[k])
 
 # Pulling out key, value pairs (tuples)

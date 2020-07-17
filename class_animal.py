@@ -30,7 +30,7 @@ print(f"{d1.name} is {d1.age} and {d2.name} is {d2.age}.")
 
 # Is Mephisto a mammal?
 if d1.species == "mammal":
-    print(f"{d1.name} is a (wild) {d1.species}")
+    print(f"{d1.name} is a (wild) {d1.species}.")
 
 # Find the oldest animal
 def get_biggest_number(self, *args):

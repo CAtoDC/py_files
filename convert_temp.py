@@ -9,6 +9,6 @@ try:
     cel = (fahr - 32.0) * 5.0 / 9.0
     cel = int(cel)
 
-    print ("In Celsius, that's " + str(cel) + " degrees.")
+    print ("In Celsius, that's " + str(cel) + u"\N{DEGREE SIGN}.")
 except:
     print ('Please enter a number')
